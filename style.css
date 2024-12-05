@@ -1,0 +1,162 @@
+*{
+ padding:0;
+ margin:0;
+ box-sizing:border-box;
+}
+.container{
+	width:100%;
+	height:100vh;
+	position:fixed;
+}
+
+header{
+	background-color:black;
+	color:white;
+	width:100%;
+	height:115px;
+	
+	border-bottom:1px solid white;
+}
+.box1{
+	font-family:'Geologica';
+	float:left;
+	font-size:35px;
+	font-family:;
+    font-weight: bold;
+    font-style: normal;
+	transform:translate(130px,30px);
+	padding:10px;
+	
+	
+}
+.box2{
+	
+	float:right;
+	font-size:20px;
+	font-family:'Geologica';
+	padding:20px;
+}
+.home{
+	transform:translate(-376px,30px);
+	
+}
+.contact{
+	transform:translate(-270px,4px);
+	
+}
+.events{
+	transform:translate(-141px, -22px);
+}
+
+.container1{
+	width:100%;
+	height:685px;
+	background-image:linear-gradient(to bottom,#000000b6, #000000) ;
+}
+.circle{
+	position:absolute;
+	left:50%;
+	top:67%;
+	transform:translate(-50%,-50%);
+	background-color:#F0DE36;
+	height:960px;
+    width:1015px;
+    border-radius: 50%;
+    display: inline-block;
+    z-index:0;
+	
+}
+.date{
+	font-family:'Geologica';
+	margin-top:149px;
+	text-align:center;
+	font-size:25px;
+	
+}
+.font{
+	font-family: 'Summer Festival';
+	font-size:100px;
+	color:#2b99cc;
+}
+.box3{
+	background-color:#F0DE36;
+	display:inline-block;
+	transform:translateX(144px);
+}
+.btn{
+	font-family:'Geologica';
+	border-radius:4px;
+	background-color:#010d4f;
+	font-size:20px;
+	color:white;
+	padding:15px 20px;
+}
+.img{
+	position:absolute;
+	left:36%;
+	bottom:34px;
+	width:460px;
+	height:300px;
+	margin:auto;
+	background:url(img/bus.png);
+	background-blend-mode:overlay;  
+	background-size:cover;  
+	background-position:center; 
+}
+
+
+footer{
+	position:absolute;
+	z-index:1000;
+	background-color: #2b99cc;
+	width:100%;
+	height:111px;
+	
+}
+.cloud1{
+	float:left;
+	position:absolute;
+	left:-28%;
+	z-index:100;
+	transform:translate(0px,115px);
+
+	width:300px;
+	height:200px;
+	z-index:-1 !important;
+	transition: all 0.5s 
+}
+.cloud2{
+	float:right;
+	position:absolute;
+	right:-25%;
+	background:url(img/cloud2.png);
+	background-blend-mode:overlay;  
+	background-size:cover;  
+	background-position:center; 
+	width:300px;
+	height:200px;
+	transition: all 0.5s 
+}
+.box5{
+	position:absolute;
+	left:50%;
+	top:10%;
+	transform:translate(88px,89px);
+	
+	border-radius: 38% 62% 73% 27% / 72% 72% 28% 28%;
+
+	width:221px;
+	height:113px;
+	background-color:#F0DE36;
+	z-index:10;
+	overflow:hidden;
+}
+
+.circle:hover .cloud1{
+	transform:translate(450px, 115px);
+	z-index:-1 !important;
+}
+.circle:hover .cloud2{
+	transform:translate(-400px, 0px);
+	z-index:-1 !important;
+}
